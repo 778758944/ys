@@ -1,5 +1,6 @@
-const API_KEY = 'AIzaSyAqVpsr-Mhl_OyS1x9Oc9OPDRK9si1hr3M';
-const CLIENT_ID = '184819840351-2lau0b3d1v2ajm1pf8pso14aim8acj5l.apps.googleusercontent.com';
+import * as GConfig from './key'
+const API_KEY = GConfig.key;
+const CLIENT_ID = GConfig.clientId;
 const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly';
 var DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];
 

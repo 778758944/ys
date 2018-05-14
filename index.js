@@ -1,4 +1,4 @@
-import * as GConfig from './key'
+import GConfig from './key'
 const API_KEY = GConfig.key;
 const CLIENT_ID = GConfig.clientId;
 const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly';

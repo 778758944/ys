@@ -1,8 +1,3 @@
-// import $ from 'jquery'
-// import 'fullcalendar'
-// import 'fullcalendar/dist/fullcalendar.css'
-
-
 const API_KEY = 'AIzaSyAqVpsr-Mhl_OyS1x9Oc9OPDRK9si1hr3M';
 const CLIENT_ID = '184819840351-2lau0b3d1v2ajm1pf8pso14aim8acj5l.apps.googleusercontent.com';
 const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly';

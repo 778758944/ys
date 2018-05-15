@@ -48,9 +48,7 @@ int main() {
 		printf("read %s\n", buf);
 		char * str = strchr(buf, ':') + 1;
 		str[strlen(str) - 1] = '\0';
-		printf("%s", str);
 		sprintf(sendMsg, "IAM:%s:77875894q@gmail.com\n", str);
-		printf("sendMsg: %s\n", sendMsg);
 		write(sock, sendMsg, strlen(sendMsg));
 		readc = read(sock, buf, SIZE);
 		printf("%s\n", buf);
